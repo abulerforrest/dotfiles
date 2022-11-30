@@ -70,7 +70,7 @@ ZSH_THEME=""
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting z)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting z web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,3 +108,7 @@ neofetch
 
 #bind tab to complete suggestion for zsh-autosuggestions
 bindkey '\t' autosuggest-accept
+
+#aliases
+alias zreload="source ~/dotfiles/zsh/.zshrc"
+alias nv="nvim"
