@@ -161,6 +161,6 @@ format = '\[[$symbol($version)]($style)\]'
 format = '\[[$symbol($version)]($style)\]'
 
 
-add_newline = false
+#add_newline = false
 [line_break]
 disabled = true
