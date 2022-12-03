@@ -1,7 +1,7 @@
 -- # set spacebar as leader key
 vim.g.mapleader = ' ' 
 -- # require(s)
-require('global')
+require('globals')
 require('mappings')
 require('plugins')
 require('helpers')
