@@ -7,6 +7,8 @@ require('plugins')
 require('helpers')
 require('lsp')
 require('theme')
+require('git')
 require('lualine').setup {
   options = { theme = 'catppuccin' }
 }
+

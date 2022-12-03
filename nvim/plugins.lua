@@ -17,9 +17,15 @@ return require('packer').startup(function(use)
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   -- # lspconfig
-  use "neovim/nvim-lspconfig"
+  use { "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig"
+  }
   -- # lsp servers
   -- require("lspconfig").tsserver.setup {
   --  on_attach = lspconfig_on_attach,
   -- }
+  -- # git
+  use "f-person/git-blame.nvim"
+  use "lewis6991/gitsigns.nvim" 
 end)

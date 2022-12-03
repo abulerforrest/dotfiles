@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/Users/abulerforrest/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  ["git-blame.nvim"] = {
+    loaded = true,
+    path = "/Users/abulerforrest/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
+    url = "https://github.com/f-person/git-blame.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/abulerforrest/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/abulerforrest/.local/share/nvim/site/pack/packer/start/lualine.nvim",
