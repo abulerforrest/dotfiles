@@ -98,7 +98,7 @@ for s in ${symlinkThese[@]}; do
 
         if [ "$(file_exist $CONFIG_PATH/${s}.toml)" = 0 ]; then
          echo "$(status_msg "$s" "$CONFIG_PATH/${s}.toml" "file")"
-         ln -s $DOT_PATH/${s}.toml $s.toml
+         ln -s $DOT_PATH/${s}/${s}.toml $s.toml
          cd $CONFIG_PATH
          COUNTER=$(( COUNTER + 1 ))
         else
